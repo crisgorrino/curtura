@@ -1,4 +1,14 @@
 /*body{padding-top:0!important;}*/
 
-header{width:100%;}
+header{width:100%; 
+ 	nav{width:100%; background-image:url('../img/header/bg-header.png'); padding:15px 0; position:relative; background-repeat:no-repeat; background-size:cover; height:20px;
+	 	ul{display: block; list-style-type:none; padding:0;  width:80%; margin:0 auto; text-align:center;
+		 	li{ margin:0 5%; display:inline-block;
+			 	a{display: block; margin:0; padding:0; text-decoration:none; letter-spacing:1px; color:$white; font-family: 'quincy_cflight';			 	
+			 		&.logo{position:absolute; top:0px;}
+			 	}
+		 	}
+	 	}
+ 	}
+}
  
