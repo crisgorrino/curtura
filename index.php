@@ -10,17 +10,7 @@
     </head>
     <body>
     	<!--Header-->
-		<header>
-			<nav>
-				<ul class="cf">
-					<li><a href="#">HISTORIA</a></li>
-					<li><a href="#">EMPRESA</a></li>
-					<li><a href="#" class="logo"><img src="img/header/header-logo.png" alt="curtura logo"></a></li>
-					<li><a href="#">C&Aacute;TALOGO</a></li>
-					<li><a href="#">CONTACTO</a></li>
-				</ul>
-			</nav>
-		</header>
+			<?php include('includes/header.php')?>
 		<!--Header-->
 		
 		<!--main content-->
@@ -57,9 +47,7 @@
 		<!--main content-->
 		
 		<!--footer-->
-		<footer>
-			<p>Curtura. Copyright Astronauta® MMXV.</p>
-		</footer>
+			<?php include('includes/footer.php')?>
 		<!--footer-->
 		
     </body>
