@@ -14,7 +14,20 @@
 		<!--Header-->
 		
 		<!--main content-->
-		
+		<section class="historia-content" >
+			<img src="img/historia/banner.jpg" class="banner" alt="banner">
+			<div class="content cf">
+				<h1>MANIFIESTO SOBRE PIEL.</h1>
+				<img src="img/historia/zig-zag.png" alt="zig zag" class="zig">
+				
+				<p class="left">Curtura posee una trayectoria legendaria que parte de cuatro generaciones de curtidores, donde se destaca la belleza de un arte antiguo trasladado a las más modernas técnicas.</p>
+				
+				<p class="right">Con este respaldo y conocimiento de las técnicas, Curtura reúne a la 4ta generación familiar compartiendo una gran pasión por el cuero y una impecable calidad en producto terminado.</p>
+				
+				<img src="img/historia/logotypo.png" alt="logo curtura" class="logotipo">
+				
+			</div>	
+		</section>
 		<!--main content-->
 		
 		<!--footer-->

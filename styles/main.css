@@ -515,6 +515,34 @@ header {
       display: inline-block;
       margin-top: 40px; }
 
+.historia-content .banner {
+  display: block;
+  margin-top: -2px;
+  width: 100%; }
+.historia-content .content {
+  background-color: #fff2d8;
+  padding: 4% 2% 1% 2%; }
+  .historia-content .content h1 {
+    font-family: 'quincy_cfregular';
+    text-align: center;
+    font-size: 53px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: normal;
+    letter-spacing: 5px; }
+  .historia-content .content .zig {
+    display: block;
+    margin: 0 auto; }
+  .historia-content .content p.left, .historia-content .content p.right {
+    width: 45%;
+    font-family: 'quincy_cfregular';
+    font-size: 15px; }
+  .historia-content .content .logotipo {
+    display: block;
+    margin: 20px auto 0px auto;
+    padding-top: 40px;
+    clear: both; }
+
 footer {
   width: 100%;
   background-image: url("../img/footer/footer-bg.jpg");
