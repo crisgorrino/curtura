@@ -18,13 +18,19 @@
 			<div class="left">
 				<img src="img/contacto/logo.png" alt="Curtura logo" class="curtura-logo">
 				
-				<form>
-					<p><label>NOMBRE*</label><input type="text"></p>
-					<p><label>EMAIL*</label><input type="text"></p>
-					<p><label class="half">CIUDAD</label><input type="text" class="half"><label class="half">ESTADO</label><input type="text" class="half"></p>
-					<p><label class="half">EMPRESA</label><input type="text" class="half"><label class="half">RUBRO</label><input type="text" class="half"></p>
-					<p><label class="area">COMENTARIO*</label><textarea></textarea></p>
-					<p><input type="submit" value=""></p>
+				<form action="mail.php" method="post">
+					<p><label>NOMBRE*</label><input type="text" name="nombre"></p>
+					<p><label>EMAIL*</label><input type="text" name="email"></p>
+					<p>
+						<label class="half">CIUDAD</label><input type="text" class="half" name="ciudad">
+						<label class="half">ESTADO</label><input type="text" class="half" name="estado">
+					</p>
+					<p>
+						<label class="half">EMPRESA</label><input type="text" class="half" name="empresa">
+						<label class="half">RUBRO</label><input type="text" class="half" name="rubro">
+					</p>
+					<p><label class="area">COMENTARIO*</label><textarea></textarea name="comentarios"></p>
+					<p><input type="submit" value="" name="submit"></p>
 				</form>
 				
 				<div class="center">
