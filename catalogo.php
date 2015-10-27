@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="styles/main.css">
 
     </head>
-    <body>
+    <body class="main-catalog">
     	<!--Header-->
 			<?php include('includes/header.php')?>
 		<!--Header-->
@@ -17,13 +17,21 @@
 		<section class="catalogo">
 			<img src="img/catalogo/catalogo.jpg" alt="" class="banner">
 			
-			<div class="main-cont cf">
-				<div class="left">
+			<div class="main-cont cf center">
+				<!--<div class="left">
 					<h1>side 1</h1>
 				</div>
 				<div class="right">
 					<h2>side 2</h2>
-				</div>
+				</div>-->
+				
+				<h1>PROXIMAMENTE</h1>
+				
+				<img src="img/catalogo/zigzag.png" alt="zigzag" style="display:inline-block;">
+				
+				<img src="img/catalogo/logotypo.png" alt="zigzag" style="display:block; margin:20px auto;">
+				
+				
 			</div>
 		</section>
 		<!--main content-->

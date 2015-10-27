@@ -58,12 +58,43 @@
 	}	
 }
 
+html,body.main-catalog{height:100%;
+	.catalogo{
+		.banner{margin-top: -2px; display:block;}
+		.main-cont{background-color:$main-beige; padding:11% 2%;
+			h1{font-family:'quincy_cfregular'; font-size:53px; margin-top:0; margin-bottom:10px; font-weight:normal; letter-spacing:5px;}
+		}
+		
+		.left{width:21%}
+		.right{width:75%;}
+		
+	}
+}
 
-.catalogo{
-	.banner{margin-top: -2px; display:block;}
-	.main-cont{background-color:$main-beige; padding:2%;}
-	
-	.left{width:21%}
-	.right{width:75%;}
-	
+html, body.main-contacto{height:100%;
+	.contacto{height:100%;
+		.left{width:50%;  height:100%; margin-top: -2px; background-color:$main-beige;
+			.curtura-logo{display:block; margin:50px auto 20px auto;}
+			form{ width:80%; margin:30px auto;
+				p{
+					label{display: inline-block; vertical-align:bottom; width:19%; text-align:right; font-family: 'latobold';}
+					label.half{display: inline-block; vertical-align:bottom; width:20%; text-align:right;}
+					input[type="text"]{background-color:transparent; width:80%; border-bottom: 1px dashed #000; border-top:none; border-left:none; border-right:none; font-family: 'latobold';}
+					input[type="text"].half{width:29%;}
+					textarea{background-color: transparent; border-bottom: 1px dashed #000; border-top:none; border-left:none; border-right:none; width:80%; font-family: 'latobold';}
+					input[type="submit"]{display:block; width:22%; height:40px; margin:50px auto 0 auto; border:0; background-image:url('../img/contacto/boton.jpg'); background-repeat:no-repeat; background-color:transparent;}
+				}
+			}
+			
+			div.center{
+				p{font-family: 'latoblack'; color:$main-gold;}
+				h6{font-family: 'quincy_cfbold'; font-size:15px; line-height: 35px;
+					span{ font-family: 'latoblack'; font-family:18px;}
+				 }
+				
+			}
+			
+		}
+		.right{width:50%; background-image:url('../img/contacto/mapa.jpg'); background-repeat:no-repeat; background-size:cover; height:100%; margin-top: -2px;}
+	}
 }

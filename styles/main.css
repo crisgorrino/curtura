@@ -431,7 +431,8 @@ header {
           font-family: 'quincy_cflight'; }
           header nav ul li a.logo {
             position: absolute;
-            top: 0px; }
+            top: 0px;
+            left: 47.5%; }
 
 .left {
   float: left; }
@@ -586,16 +587,96 @@ header {
   .empresa .right .logotipo {
     display: inline-block; }
 
-.catalogo .banner {
-  margin-top: -2px;
-  display: block; }
-.catalogo .main-cont {
-  background-color: #fff2d8;
-  padding: 2%; }
-.catalogo .left {
-  width: 21%; }
-.catalogo .right {
-  width: 75%; }
+html, body.main-catalog {
+  height: 100%; }
+  html .catalogo .banner, body.main-catalog .catalogo .banner {
+    margin-top: -2px;
+    display: block; }
+  html .catalogo .main-cont, body.main-catalog .catalogo .main-cont {
+    background-color: #fff2d8;
+    padding: 11% 2%; }
+    html .catalogo .main-cont h1, body.main-catalog .catalogo .main-cont h1 {
+      font-family: 'quincy_cfregular';
+      font-size: 53px;
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-weight: normal;
+      letter-spacing: 5px; }
+  html .catalogo .left, body.main-catalog .catalogo .left {
+    width: 21%; }
+  html .catalogo .right, body.main-catalog .catalogo .right {
+    width: 75%; }
+
+html, body.main-contacto {
+  height: 100%; }
+  html .contacto, body.main-contacto .contacto {
+    height: 100%; }
+    html .contacto .left, body.main-contacto .contacto .left {
+      width: 50%;
+      height: 100%;
+      margin-top: -2px;
+      background-color: #fff2d8; }
+      html .contacto .left .curtura-logo, body.main-contacto .contacto .left .curtura-logo {
+        display: block;
+        margin: 50px auto 20px auto; }
+      html .contacto .left form, body.main-contacto .contacto .left form {
+        width: 80%;
+        margin: 30px auto; }
+        html .contacto .left form p label, body.main-contacto .contacto .left form p label {
+          display: inline-block;
+          vertical-align: bottom;
+          width: 19%;
+          text-align: right;
+          font-family: 'latobold'; }
+        html .contacto .left form p label.half, body.main-contacto .contacto .left form p label.half {
+          display: inline-block;
+          vertical-align: bottom;
+          width: 20%;
+          text-align: right; }
+        html .contacto .left form p input[type="text"], body.main-contacto .contacto .left form p input[type="text"] {
+          background-color: transparent;
+          width: 80%;
+          border-bottom: 1px dashed #000;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          font-family: 'latobold'; }
+        html .contacto .left form p input[type="text"].half, body.main-contacto .contacto .left form p input[type="text"].half {
+          width: 29%; }
+        html .contacto .left form p textarea, body.main-contacto .contacto .left form p textarea {
+          background-color: transparent;
+          border-bottom: 1px dashed #000;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          width: 80%;
+          font-family: 'latobold'; }
+        html .contacto .left form p input[type="submit"], body.main-contacto .contacto .left form p input[type="submit"] {
+          display: block;
+          width: 22%;
+          height: 40px;
+          margin: 50px auto 0 auto;
+          border: 0;
+          background-image: url("../img/contacto/boton.jpg");
+          background-repeat: no-repeat;
+          background-color: transparent; }
+      html .contacto .left div.center p, body.main-contacto .contacto .left div.center p {
+        font-family: 'latoblack';
+        color: #dfb369; }
+      html .contacto .left div.center h6, body.main-contacto .contacto .left div.center h6 {
+        font-family: 'quincy_cfbold';
+        font-size: 15px;
+        line-height: 35px; }
+        html .contacto .left div.center h6 span, body.main-contacto .contacto .left div.center h6 span {
+          font-family: 'latoblack';
+          font-family: 18px; }
+    html .contacto .right, body.main-contacto .contacto .right {
+      width: 50%;
+      background-image: url("../img/contacto/mapa.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      margin-top: -2px; }
 
 footer {
   width: 100%;

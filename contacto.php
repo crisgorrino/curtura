@@ -8,13 +8,43 @@
         <link rel="stylesheet" href="styles/main.css">
 
     </head>
-    <body>
+    <body class="main-contacto">
     	<!--Header-->
 			<?php include('includes/header.php')?>
 		<!--Header-->
 		
 		<!--main content-->
-		
+		<div class="contacto cf">
+			<div class="left">
+				<img src="img/contacto/logo.png" alt="Curtura logo" class="curtura-logo">
+				
+				<form>
+					<p><label>NOMBRE*</label><input type="text"></p>
+					<p><label>EMAIL*</label><input type="text"></p>
+					<p><label class="half">CIUDAD</label><input type="text" class="half"><label class="half">ESTADO</label><input type="text" class="half"></p>
+					<p><label class="half">EMPRESA</label><input type="text" class="half"><label class="half">RUBRO</label><input type="text" class="half"></p>
+					<p><label class="area">COMENTARIO*</label><textarea></textarea></p>
+					<p><input type="submit" value=""></p>
+				</form>
+				
+				<div class="center">
+					<p><small>*Campos obligatorios</small></p>
+					
+					<img src="img/contacto/zigzag.png" alt="zigzag" style="display:inline-block;">
+					
+					<h6>
+						<span>T. 3637 9351</span><br>
+						Chimborazo 1222, Col. El Mirador, C.P. 44370.<br>
+						<span>GDL / JAL /MX</span><br>
+					</h6>
+					
+					<img src="img/contacto/logotypo.png" alt="">
+					
+				</div>
+				
+			</div>
+			<div class="right"></div>
+		</div>
 		<!--main content-->
 		
 		<!--footer-->
