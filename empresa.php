@@ -14,7 +14,23 @@
 		<!--Header-->
 		
 		<!--main content-->
+		<section class="empresa cf">
 		
+			<div class="left">
+				<!--<img src="img/empresa/left-img.jpg" alt="empresa" class="left-img">-->
+			</div>
+			
+			<div class="right">
+				<h1>VANGUARDIA EN PIEL.</h1>
+				
+				<h5>Curtura es un solo vocablo de nueva inspiración, con una comunicación que eleva el oficio a tradición y arte.</h5>
+				
+				<p>Curtura enfatiza la tradición y el arte de curtir piel, bajo el paradigma de toda una cultura, resaltando sobre todo que en la profesión existe la experiencia y el legado, con un toque diferenciador de buen gusto, de pasión y talento, elevando el oficio al grado artesanal.</p>
+				
+				<img src="img/empresa/logotypo.png"	alt="empresa" class="logotipo">
+
+			</div>
+		</section>
 		<!--main content-->
 		
 		<!--footer-->
