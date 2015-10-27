@@ -14,7 +14,18 @@
 		<!--Header-->
 		
 		<!--main content-->
-		
+		<section class="catalogo">
+			<img src="img/catalogo/catalogo.jpg" alt="" class="banner">
+			
+			<div class="main-cont cf">
+				<div class="left">
+					<h1>side 1</h1>
+				</div>
+				<div class="right">
+					<h2>side 2</h2>
+				</div>
+			</div>
+		</section>
 		<!--main content-->
 		
 		<!--footer-->

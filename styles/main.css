@@ -586,6 +586,17 @@ header {
   .empresa .right .logotipo {
     display: inline-block; }
 
+.catalogo .banner {
+  margin-top: -2px;
+  display: block; }
+.catalogo .main-cont {
+  background-color: #fff2d8;
+  padding: 2%; }
+.catalogo .left {
+  width: 21%; }
+.catalogo .right {
+  width: 75%; }
+
 footer {
   width: 100%;
   background-image: url("../img/footer/footer-bg.jpg");
