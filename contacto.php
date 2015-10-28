@@ -29,7 +29,7 @@
 						<label class="half">EMPRESA</label><input type="text" class="half" name="empresa">
 						<label class="half">RUBRO</label><input type="text" class="half" name="rubro">
 					</p>
-					<p><label class="area">COMENTARIO*</label><textarea></textarea name="comentarios"></p>
+					<p><label class="area">COMENTARIO*</label><textarea name="comentarios"></textarea></p>
 					<p><input type="submit" value="" name="submit"></p>
 				</form>
 				

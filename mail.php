@@ -17,7 +17,7 @@
 		<div class="contacto cf">
 				<?php 
 					if(isset($_POST['submit'])){
-					    $to = "cgorrino@gmail.com"; // this is your Email address
+					    $to = "administracion@curtura.mx"; // this is your Email address
 					    $from = $_POST['email']; // this is the sender's Email address
 					    $nombre = $_POST['nombre'];
 					    $ciudad = $_POST['ciudad'];
